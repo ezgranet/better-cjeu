@@ -1,0 +1,156 @@
+
+
+
+@font-face {
+  font-family: "eu-albertina";
+  src: url("https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/albrtna/EUAlbertina-Regu.woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "eu-albertina";
+  src: url("https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/eu-albertna/EUAlbertina-ReguItal.woff2");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "eu-albertina";
+  src: url("https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/albrtna/EUAlbertina-Bold.woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
+ @font-face {
+  font-family: "eu-albertina";
+  src: url("https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/albrtna/EUAlbertina-BoldItal.woff2.ttf");
+  font-weight: bold;
+  font-style: italic;
+}
+
+#content > div.document_language #text{visibility: hidden !important}
+#toggle_link {
+    margin-top:-60%!important;
+
+margin-bottom:-60%!important;
+scale: 0% !important;}
+
+p  {  
+font-family: "eu-albertina","Sabon", "Sabon Next Com",   "Sabon LT Std", "Sabon Next", "Sabon eText", "Sabon LT", "Sabon Linotype",  Cardo, serif !important;
+text-align: justify !important;
+ font-variant-numeric: proportional-nums oldstyle-nums !important;
+   font-feature-settings:  "onum", "pnum", "liga"!important;
+   font-variant-ligatures: normal common-ligatures   !important;
+text-indent: 1em !important;
+font-size: 125% !important;
+
+}
+div.document_language {float: left !important;
+
+  display:block !important;
+  position: relative !important;
+clear: right !important;
+margin-bottom:15px !important;
+
+}
+
+div#printer {display:block !important;
+float: left !important;
+clear: both !important;
+margin-bottom:15px !important;
+position: relative !important;
+}
+p.C19Centre {  position: relative !important;
+clear: both !important;
+display: block !important;
+
+/*width: 100% !important;*/
+font-family: 'eu-albertina' !important;
+/*margin-left:  !important;
+margin-right: auto !important;
+*/text-align: center !important;
+
+} 
+p.C12Marge1avectiretlong{margin-left: 60pt !important;
+text-indent: -1em !important;
+  text-align: justify !important;
+  display: block !important;
+  max-width: calc(700px - 3em) !important;}
+p.C08Dispositif {margin-left: 50pt !important;
+text-indent: -1em !important;
+  text-align: justify !important;
+  display: block !important;
+  max-width: calc(700px - 3em) !important;}
+p.C32Dispositifmarge1 {
+margin-left: 60pt !important;
+text-indent: 1em !important;
+  text-align: justify !important;
+  display: block !important;
+  max-width: calc(700px - 6em) !important;
+
+}
+p.C09Marge0avecretrait  {  
+margin-left: 60pt !important;
+text-indent: -1em !important;
+  text-align: justify !important;
+  display: block !important;
+  max-width: calc(700px - 3em) !important;
+
+}
+#document_content > p > a {margin-left: 0px !important;
+margin-right: 0px !important;}
+p.C19Centre.a#footnote  { margin-left: 25px !important;}
+#document_content > p > a {
+}
+#document_content > p> i {margin: 0.05% !important;}
+p {position: relative !important;
+display: block !important;}
+@media (max-width: 1000px) {
+
+  #content {    margin-right:45pt !important;
+    padding-left: 0pt !important;
+    padding-right: 0pt !important;
+    border-left: 0pt !important;
+        border-right: 0pt !important;
+
+ margin-left: -160pt !important;
+     width: 85% !important;}
+
+
+ #document_content * { 
+
+font-family: "eu-albertina", "Sabon", "Sabon Next Com",   "Sabon LT Std", "Sabon Next", "Sabon eText", "Sabon LT", "Sabon Linotype",  Cardo, serif !important;
+     width: 155% !important;
+
+} 
+
+}
+
+@media (min-width: 1000px) {
+  p {max-width: 700px !important;
+}
+  p.C19Centre#text {
+display: block !important;
+margin-left: 0px !important;
+margin-right: 0px !important;
+  position: relative !important;
+}
+
+#content {   
+
+
+}
+
+ #content  { 
+ margin-right:20% !important;
+ margin-left:0% !important;
+ border-left:0% !important;
+ padding-left: 0% !important;
+ border-right:10% !important;
+      width: 90% !important;
+font-family: "eu-albertina", "Sabon", "Sabon Next Com",   "Sabon LT Std", "Sabon Next", "Sabon eText", "Sabon LT", "Sabon Linotype",  Cardo, serif !important;
+
+} 
+
+}
+
